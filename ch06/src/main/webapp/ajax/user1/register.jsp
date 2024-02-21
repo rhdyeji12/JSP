@@ -49,16 +49,24 @@
 		 				})
 			 			.then(response => response.json())
 			 			.then((data) => {
-			 				
 			 				console.log(data);
+			 				
+			 				if(data.result > 0){
+			 					
+			 					alert('등록 성공!');
+			 					
+			 					// 목록 이동
+			 					location.href = './list.jsp';
+			 					
+			 				}else{
+			 					alert('등록 실패!');
+			 				}
 			 				
 			 			})
 			 			.catch((err) => {
 			 				console.log(err);
 			 			});
-		 			
 		 		}
-				
 			}
 		</script>
 	</head>
@@ -96,6 +104,3 @@
 		
 	</body>
 </html>
-
-
-
