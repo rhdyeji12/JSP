@@ -30,9 +30,14 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>src/main/webapp/WEB-INF/web.xml</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/AppData/Local/Temp/_AZTMP1_/JSP-main/ch08/src/main/webapp/WEB-INF/web.xml</locationURI>
+		</link>
+		<link>
 			<name>src/main/webapp/WEB-INF/lib/jstl-1.2.jar</name>
 			<type>1</type>
-			<locationURI>PARENT-4-PROJECT_LOC/AppData/Local/Temp/_AZTMP0_/JSP-main/ch08/src/main/webapp/WEB-INF/lib/jstl-1.2.jar</locationURI>
+			<locationURI>PARENT-3-PROJECT_LOC/jar/jstl-1.2.jar</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
